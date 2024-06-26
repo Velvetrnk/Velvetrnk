@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="567.0" prefWidth="1272.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" text="На сколько закроем практику? " textAlignment="RIGHT" textFill="#a61b84" translateY="-40.0">
+      <font>
+         <Font name="System Bold Italic" size="52.0" />
+      </font></Label>
+    <Button onAction="#onHelloButtonClick" prefHeight="62.0" prefWidth="193.0" text="Хорошо" textFill="#10eb59" translateX="-25.0" translateY="55.0">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+   <Button mnemonicParsing="false" onAction="#onYlloButtonClick" prefHeight="76.0" prefWidth="202.0" text="Удволет" textFill="#ff0804" translateX="200.0" translateY="-43.0">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+   <Button mnemonicParsing="false" onAction="#onDAlloButtonClick" prefHeight="48.0" prefWidth="210.0" text="Отлично " translateX="-255.0" translateY="-140.0">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+   <Button mnemonicParsing="false" onAction="#onLElloButtonClick" prefHeight="58.0" prefWidth="284.0" text="ОТЧИСЛЕНИЕ" translateY="10.0">
+      <font>
+         <Font size="26.0" />
+      </font></Button>
+</VBox>
